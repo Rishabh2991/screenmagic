@@ -16,7 +16,7 @@ This webservice handles outgoing services for the business. It accepts a json ob
 
 This service handles response to incoming messages from the customer's end. It receives a payload with order details including customer name, order id, product id and payment details. In case the order is placed during normal working hours; confirmation is send to the customer at the same time. In case the order is placed outside the normal working hours, the order details are moved to pending order table and customer is informed that the order will be processed next day. In case the order is received on weekends; the customer is informed that the order will be processed on Monday and the order details are moved to pending_order database.
 
-# TECHNOLOGIES USED:
+Tecchnologies used:
 1.	Python- Flask Framework
 2.	MySQL database
 3.	Postman for API-testing and Proof of concept development
